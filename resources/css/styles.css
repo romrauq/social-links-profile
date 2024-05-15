@@ -31,7 +31,7 @@ body {
 	left: 50%;
 	width: 300px;
 	transform: translate(-50%, -50%);
-	padding: 20px;
+	padding: 30px;
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 5px;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .location-text {
-	font-family: Inter;
+	font-family: Inter Bold;
 	color: hsl(75, 94%, 57%);
 	font-size: 10px;
 	margin-bottom: 20px;
@@ -89,6 +89,8 @@ body {
 }
 
 .links-column a:hover {
+	font-family: Inter SemiBold;
 	color: hsl(0, 0%, 8%);
+	transition: 0.3s;
 	background-color: hsl(75, 94%, 57%);
 }
