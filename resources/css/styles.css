@@ -98,6 +98,6 @@ body {
 /* Mobile view styles: */
 @media (max-width: 475px) {
 	.app-container {
-		width: 80%;
+		width: 90%;
 	}
 }
